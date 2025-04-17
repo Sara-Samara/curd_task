@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD with Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Contact Management</h1>
+        </header>
+
+        <main>
+            <div class="form-container">
+                <input type="text" id="name" placeholder="Enter name" required>
+                <input type="text" id="email" placeholder="Enter email" required>
+                <button class="add-btn" onclick="addData()">Add Contact</button>
+            </div>
+
+            <div class="data-container" id="dataDisplay"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 CRUD with Local Storage</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
